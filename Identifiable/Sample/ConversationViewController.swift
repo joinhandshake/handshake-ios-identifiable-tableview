@@ -12,7 +12,7 @@ class ConversationViewController: TableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        backgroundColor = .white
+        view.backgroundColor = .white
         tableView.separatorStyle = .none
         tableView.backgroundColor = .white
         
