@@ -18,6 +18,8 @@ class PlainCell: UITableViewCell, IdentifiableCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
+        backgroundColor = .white
+        
         addSubview(label)
         installConstraints()
     }
