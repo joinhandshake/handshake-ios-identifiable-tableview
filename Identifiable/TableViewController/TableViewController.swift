@@ -8,21 +8,6 @@
 
 import UIKit
 
-struct TableViewSection {
-    let cellModels: [IdentifiableCellModel]
-    let headerCellModel: IdentifiableCellModel?
-    let footerCellModel: IdentifiableCellModel?
-    
-    init(cellModels: [IdentifiableCellModel],
-         headerCellModel: IdentifiableCellModel? = nil,
-         footerCellModel: IdentifiableCellModel? = nil) {
-        
-        self.cellModels = cellModels
-        self.headerCellModel = headerCellModel
-        self.footerCellModel = footerCellModel
-    }
-}
-
 class TableViewController: UIViewController {
     
     var sections = [TableViewSection]() {
